@@ -15,7 +15,7 @@ namespace App1
     [Activity(Label = "movielist")]
     public class movielist : Activity
     {
-        int valueFromLoginUser;
+        int valueFromLoginUser,list;
         ListView listView;
         SearchView mysearch;
         ArrayAdapter myAdapter;
@@ -42,24 +42,28 @@ namespace App1
             {
                 myAdapter = new ArrayAdapter
                 (this, Android.Resource.Layout.SimpleListItem1, list1);
+                list = 1;
                 Console.WriteLine("Bollywood");
             }
             if (valueFromLoginUser == 1)
             {
                 myAdapter = new ArrayAdapter
                 (this, Android.Resource.Layout.SimpleListItem1, list2);
+                list = 2;
                 Console.WriteLine("Hollywood");
             }
             if (valueFromLoginUser == 2)
             {
                 myAdapter = new ArrayAdapter
                 (this, Android.Resource.Layout.SimpleListItem1, list3);
+                list = 3;
                 Console.WriteLine("Polywood");
             }
             else if(valueFromLoginUser == 3)
             {
                 myAdapter = new ArrayAdapter
                 (this, Android.Resource.Layout.SimpleListItem1, list4);
+                list = 4;
                 Console.WriteLine("Lollywood");
             }
             listView.Adapter = myAdapter;
@@ -83,6 +87,15 @@ namespace App1
         {
             System.Console.WriteLine("I am clicking on the list item \n\n");
             var indexValue = e.Position;
+            Intent newScreen1 = new Intent(this, typeof(moviedetails));
+            if (list == 1)
+            {
+                newScreen1.PutExtra("movie", list1[e.Position]);
+            }
+            
+
+
+            StartActivity(newScreen1);
 
 
 

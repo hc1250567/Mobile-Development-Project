@@ -3023,7 +3023,10 @@ namespace App1
 			public const int design_text_input_password_icon = 2131689512;
 			
 			// aapt resource value: 0x7F030004
-			public const int movielist = 2130903044;
+			public const int moviedetails = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int movielist = 2130903045;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3079,8 +3082,8 @@ namespace App1
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F030005
-			public const int signup = 2130903045;
+			// aapt resource value: 0x7F030006
+			public const int signup = 2130903046;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -3088,14 +3091,14 @@ namespace App1
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F030006
-			public const int userDetails = 2130903046;
-			
 			// aapt resource value: 0x7F030007
-			public const int Userlistlayout = 2130903047;
+			public const int userDetails = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int welcomeLayout = 2130903048;
+			public const int Userlistlayout = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int welcomeLayout = 2130903049;
 			
 			static Layout()
 			{

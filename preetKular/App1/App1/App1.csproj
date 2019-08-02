@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="DBHelperclass.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="moviedetails.cs" />
     <Compile Include="movielist.cs" />
     <Compile Include="MyCustomAdapter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -135,6 +136,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\movielist.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\moviedetails.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

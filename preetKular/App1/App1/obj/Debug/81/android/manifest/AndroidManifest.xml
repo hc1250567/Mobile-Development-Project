@@ -10,6 +10,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="moviedetails" android:name="md534dff480a52c45f6caea0c4186201ac3.moviedetails" />
     <activity android:label="movielist" android:name="md534dff480a52c45f6caea0c4186201ac3.movielist" />
     <activity android:label="Userlistactivity" android:name="md534dff480a52c45f6caea0c4186201ac3.Userlistactivity" />
     <activity android:label="WelcomeNew" android:name="md534dff480a52c45f6caea0c4186201ac3.WelcomeNew" />
