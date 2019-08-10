@@ -589,3 +589,9 @@ C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\androi
 C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\layout\movielist.xml
 C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\layout\moviedetails.xml
+C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\drawable\star.png
+C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\drawable\lagaan.png
+C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\layout\favlist.xml
+C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\layout\fragment1.xml
+C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\layout\fragment2.xml
+C:\Users\Harish\source\repos\preetKular\preetKular\App1\App1\obj\Debug\81\res\drawable\netflix.jpg

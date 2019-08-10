@@ -69,7 +69,7 @@ namespace App1
             alert = new Android.App.AlertDialog.Builder(this);
 
             myDB = new DBHelperclass(this); //create constructor 
-
+            myDB.deletemovienames();
 
 
 

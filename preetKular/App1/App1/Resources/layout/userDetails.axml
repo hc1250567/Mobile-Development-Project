@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-	android:background="#ffffff">
+	android:background="#fc0000"
+    android:gravity="center">
 
 	<EditText
                 android:layout_width="250dp"
@@ -51,7 +52,7 @@
         android:id="@+id/userlist1"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:background="#E60023"
+        android:background="#000000"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:text="Go Back" />

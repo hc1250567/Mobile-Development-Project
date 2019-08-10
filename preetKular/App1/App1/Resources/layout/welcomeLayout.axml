@@ -3,19 +3,33 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-	android:background="#ffffff">
+	android:gravity="center"	
+	android:background="#fc0000">
+
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="User Details"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="5dp"
+       
+    />
+
+
 
 	<EditText
                 android:layout_width="250dp"
-                android:layout_height="50dp"
-		 
+                android:layout_height="50dp"		 
                 android:id="@+id/display_name"
-                android:background="#E60023"
+                android:background="#ffffff"
                 android:textStyle="bold"
                 android:hint="name"
                 android:layout_marginBottom="10dp"
-		 android:layout_marginLeft="60dp"
-		android:layout_marginTop="20dp"
+				
+				android:layout_marginTop="20dp"
 
             />
 
@@ -24,33 +38,33 @@
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:id="@+id/display_email"
-                android:background="#E60023"
+                android:background="#ffffff"
                 android:textStyle="bold"
                 android:hint="Email"
                 android:layout_marginBottom="10dp"
-		         android:layout_marginLeft="60dp"
+		         
 
             />
 	<EditText
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:id="@+id/display_age"
-                android:background="#E60023"
+                android:background="#ffffff"
                 android:textStyle="bold"
                 android:hint="age"
                 android:layout_marginBottom="10dp"
-		         android:layout_marginLeft="60dp"
+		        
 
             />
 	<EditText
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:id="@+id/display_password"
-                android:background="#E60023"
+                android:background="#ffffff"
                 android:textStyle="bold"
                 android:hint="password"
                 android:layout_marginBottom="10dp"
-		         android:layout_marginLeft="60dp"
+		        
 
             />
 	<Button
@@ -62,7 +76,7 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:text="Edit"
-	     android:layout_marginLeft="60dp"/>
+	    />
 	<Button
         android:layout_marginTop="10dp"
         android:id="@+id/DeleteBtn"
@@ -72,7 +86,7 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:text="Delete"
-	android:layout_marginLeft="60dp"/>
+	/>
 	<Button
         android:layout_marginTop="10dp"
         android:id="@+id/userlist"
@@ -82,5 +96,5 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:text="List Of Categories"
-	android:layout_marginLeft="60dp"/>
+	/>
 </LinearLayout>

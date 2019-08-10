@@ -127,6 +127,41 @@ namespace App1
 
         }
 
+        public ICursor selectmovienames()
+        {
+            String selectStm = "Select * from " + tableName + " where id='500'";
+            Console.WriteLine(selectStm);
+            ICursor myresut1 = connectionObj.RawQuery(selectStm, null);
+
+            return myresut1;
+            //String selectStmwithId = "Select * from "+ tableName " where id="+id +"and name="+nameFiled;
+            //myresut.Count >0
+
+
+        }
+        public ICursor selectwatchlaternames()
+        {
+            String selectStm = "Select * from " + tableName + " where id='501'";
+            Console.WriteLine(selectStm);
+            ICursor myresut1 = connectionObj.RawQuery(selectStm, null);
+
+            return myresut1;
+            //String selectStmwithId = "Select * from "+ tableName " where id="+id +"and name="+nameFiled;
+            //myresut.Count >0
+
+
+        }
+        public void deletemovienames()
+        {
+            String selectStm = "DELETE from " + tableName + " where id='500' OR id='501'";
+            Console.WriteLine(selectStm);
+            connectionObj.ExecSQL(selectStm);
+            //String selectStmwithId = "Select * from "+ tableName " where id="+id +"and name="+nameFiled;
+            //myresut.Count >0
+
+
+        }
+
         public void DeleteUserdata(string val1, string val2)
         {
             String selectStm = "DELETE from " + tableName + " where names='" + val1 + "' and password='" + val2 + "'";

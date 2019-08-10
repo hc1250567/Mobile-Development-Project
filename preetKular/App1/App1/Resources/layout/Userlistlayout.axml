@@ -4,16 +4,15 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-  <SearchView
-android:layout_height="50dp"
-android:layout_width="match_parent"
-android:background="#7a520c"
-android:id="@+id/searchID"
-
+<SearchView
+	android:layout_height="50dp"
+	android:layout_width="match_parent"
+	android:background="#b0b0b0"
+	android:id="@+id/searchID"
     />
+
 <ListView
-		android:layout_height="400dp"
-		
+		android:layout_height="400dp"		
 		android:layout_width="wrap_content"
 		android:id="@+id/List"
 		android:background="#ffffff"

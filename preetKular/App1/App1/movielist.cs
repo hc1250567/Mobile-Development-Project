@@ -19,10 +19,10 @@ namespace App1
         ListView listView;
         SearchView mysearch;
         ArrayAdapter myAdapter;
-        String[] list1 = { "Special 26", "Lagaan", "Parmanu", "Dangal", "Sanju" };
-        String[] list2 = { "Black Panther", "Inception", "Iron Man", "Aladin", "Spider Man" };
-        String[] list3 = { "Ardaas", "Asees", "Udta Punjab", "The Black King", "Sardaar Ji" };
-        String[] list4 = { "Dukhtar", "Moor", "Rangreza", "Janaam", "Pinky Memsaab" };
+        String[] list1 = { "Special 26", "Chak De India", "Parmanu", "Dangal", "Sanju" };
+        String[] list2 = { "Black Panther", "Inception", "Iron Man", "Aladdin", "Spider Man" };
+        String[] list3 = { "Ardaas", "Asees", "Udta Punjab", "The Black Prince", "Sardaar Ji" };
+        String[] list4 = { "Dukhtar", "Moor", "Rangreza", "Janaan", "Pinky Memsaab" };
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -68,7 +68,6 @@ namespace App1
             }
             listView.Adapter = myAdapter;
             listView.ItemClick += myIteamClickMethod;
-
             
             //Search Events
             mysearch.QueryTextChange += mySearchMethod;
@@ -92,7 +91,19 @@ namespace App1
             {
                 newScreen1.PutExtra("movie", list1[e.Position]);
             }
-            
+            if (list == 2)
+            {
+                newScreen1.PutExtra("movie", list2[e.Position]);
+            }
+            if (list == 3)
+            {
+                newScreen1.PutExtra("movie", list3[e.Position]);
+            }
+            if (list == 4)
+            {
+                newScreen1.PutExtra("movie", list4[e.Position]);
+            }
+
 
 
             StartActivity(newScreen1);

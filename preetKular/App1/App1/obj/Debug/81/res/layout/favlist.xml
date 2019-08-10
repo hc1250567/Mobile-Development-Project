@@ -1,0 +1,1 @@
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:background="#fc0000" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><FrameLayout android:id="@+id/frameLayout1" android:layout_width="match_parent" android:layout_height="match_parent" /></LinearLayout>
